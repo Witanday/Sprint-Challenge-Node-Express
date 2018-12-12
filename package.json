@@ -1,0 +1,31 @@
+{
+  "name": "Sprint-Challenge-Node-Express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Witanday/Sprint-Challenge-Node-Express.git"
+  },
+  "author": "Witanday <witanday.cd@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "knex": "^0.16.2",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.0.4"
+  },
+  "description": "- Please open the `Review.md` file and answer the questions.\r - Use Node.js and Express to design and build an API that performs CRUD operations on **projects** and **actions**.",
+  "bugs": {
+    "url": "https://github.com/Witanday/Sprint-Challenge-Node-Express/issues"
+  },
+  "homepage": "https://github.com/Witanday/Sprint-Challenge-Node-Express#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": []
+}
